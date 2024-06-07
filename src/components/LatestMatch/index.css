@@ -1,1 +1,24 @@
 /* Write your CSS here */
+.latestMatch-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+}
+.con {
+  margin-right: 5px;
+}
+.paragraph {
+  font-size: 20px;
+  color: white;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.team-logo {
+  height: 200px;
+  width: 200px;
+}

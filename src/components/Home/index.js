@@ -26,6 +26,7 @@ class Home extends Component {
     }))
     this.setState({iplList: updatedIplData, isLoding: false})
   }
+
   render() {
     const {isLoding, iplList} = this.state
     return (
@@ -40,7 +41,9 @@ class Home extends Component {
         </div>
         <div>
           {isLoding ? (
-            <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+            <div data-testid="loader">
+              <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+            </div>
           ) : (
             <ul className="unorderd-container">
               {iplList.map(each => (

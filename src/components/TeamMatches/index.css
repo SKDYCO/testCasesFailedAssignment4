@@ -4,7 +4,13 @@
   padding: 10px;
   height: 100vh;
 }
-.iplteam-image{
-    width:100%;
-    height:10vh;
+.iplteam-image {
+  width: 100%;
+  height: 40vh;
+}
+.unordered-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
 }
